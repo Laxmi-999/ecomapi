@@ -1,14 +1,371 @@
 [
     {
         "id":1,
+        "category": "mobile",
+        "img":"https://www.costco.co.uk/medias/sys_master/images/h37/hc3/119433914056734.jpg",
+        "featured": "false",
+        "name": "iphoneX",
+        "company": "MacOs",
+        "price": "20000000",
         "title": "Web Development",
-        "image" : "https://images.app.goo.gl/foT2UBhg6vbeeYPr9",
-        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "image":[
+            {
+                "id": "iphone1",
+                "width": 1080,
+                "height":650,
+                "url":"https://www.costco.co.uk/medias/sys_master/images/h37/hc3/119433914056734.jpg",
+                "filename":"prod1.png",
+                "size":1080,
+                "type":"png/img"
+    
+            },
+            {
+                "id": "iphone2",
+                "width": 1080,
+                "height":650,
+                "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbqOg4CpbF2WKG6pRedqAAFSrP54sZd9wNAg&usqp=CAU",
+                "filename":"prod1.png",
+                "size":1080,
+                "type":"png/img"
+    
+            },
+            {
+                "id": "iphone3",
+                "width": 1080,
+                "height":650,
+                "url":"https://www.digitaltrends.com/wp-content/uploads/2022/09/iPhone-14-Pro-Back-Purple-Hand.jpg?p=1",
+                "filename":"prod1.png",
+                "size":1080,
+                "type":"png/img"
+    
+            },
+            {
+                "id": "iphone4",
+                "width": 1080,
+                "height":650,
+                "url":"https://m-cdn.phonearena.com/images/articles/404761-image/Asus-Zenfone-10-review-Rinse-and-repeat.jpg",
+                "filename":"prod1.png",
+                "size":1080,
+                "type":"png/img"
+    
+            }
+    ],
+    "stars": 4,
+    "reviews": 98,
+    "stock": 4,
+    "colors":[
+        "#FF5733",
+        "#FFC300",
+        "#C70039"
+    ],
+   "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 },
 {
-    "id":1,
+    "id":2,
+    "category": "watch",
+    "company": "Omega Sa",
     "title": "Web Development",
-    "image" : "https://images.app.goo.gl/foT2UBhg6vbeeYPr9",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/0-19-1664223452.jpg?crop=0.503xw:1.00xh;0.235xw,0&resize=640:*",
+    "image":[
+        {
+            "id": "timex1",
+            "width": 1080,
+            "height":650,
+            "url":"https://hips.hearstapps.com/hmg-prod/images/0-19-1664223452.jpg?crop=0.503xw:1.00xh;0.235xw,0&resize=640:*",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "timex2",
+            "width": 1080,
+            "height":650,
+            "url":"https://rukminim2.flixcart.com/image/850/1000/xif0q/watch/e/g/f/-original-imagrk9rypmyhjmq.jpeg?q=90",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "timex3",
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqhe3dWqbVceSOfQU77siLXMKqV5mE2QLvA&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "timex4",
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJSXr8a97PoJCaXgdgbLmOFXKAvIPxbkIcg&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+        }
+
+    ],
+    "stars": 4.5,
+    "reviews": 78,
+    "stock": 4,
+    "colors":[
+        "#C70039",
+        "#F9F5EF",
+        "#070000"
+    ],
+    "price":"2400000",
+    "name" : "OmegaWatch",
+
     "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+},
+{
+    "id":3,
+    "category": "Laptop",
+    "name": "MacOs",
+    "company": "MAC",
+    "title": "Web Development",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4sT0N7rupHiyd8XZPFJOzXqynkxoGtMuIg&usqp=CAU",
+    "image":[
+        {
+            "id": "MacOs1",
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4sT0N7rupHiyd8XZPFJOzXqynkxoGtMuIg&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "MacOs2",
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhw0sNCjP8sNuOW2mJnXo2W3M9nLSXwhE36U5Yuevh7vXeep3qvoukWt9nCk3LkwO2mG4&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "MacOs3",
+            "width": 1080,
+            "height":650,
+            "url":"https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/10/1-8.jpg?resize=690%2C706&ssl=1",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": "MacOs4",
+            "width": 1080,
+            "height":650,
+            "url":"https://i.pinimg.com/736x/00/10/9b/00109b22800e09ac243ed2392952de92.jpg",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        }
+    ],
+    "stars": 5,
+    "reviews": 70,
+    "stock": 4,
+    "colors":[
+        "#FF5733",
+        "#FFC300",
+        "#070000"
+    ],
+    "price":"3500000",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "featured": "false"
+},
+{
+    "id":4,
+    "title": "Web Development",
+    "company": "samsung",
+    "stars": 3,
+    "reviews": 30,
+    "stock": 3,
+    "colors":[
+         "#F9F5EF",
+        "#070000"
+    ],
+    "img": "https://m-cdn.phonearena.com/images/articles/404761-image/Asus-Zenfone-10-review-Rinse-and-repeat.jpg",
+    "image":
+    [
+
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://m-cdn.phonearena.com/images/articles/404761-image/Asus-Zenfone-10-review-Rinse-and-repeat.jpg",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://i.pinimg.com/736x/a3/bc/b1/a3bcb147728479c9c3d88e35f5a9ccb9.jpg",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://i.pinimg.com/736x/bc/a6/48/bca64857f70fa053017778e026555361--top-news-smartphone.jpg",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWntBWT7zExIzdeCLj6es56aMyKxHaNh4frg&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        }
+    ],
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "featured": "true",
+    "category": "mobile",
+    "name": "SamsungM20",
+    "price": "2000"
+    
+},
+{
+    "id":5,
+    "title": "Web Development",
+    "company": "Timex",
+    "stock":5,
+    "reviews":58,
+    "img":"https://i.pinimg.com/736x/09/d3/31/09d331bb5df9254bb0d30a2d3ef1a663.jpg",
+    "stars":4.5,
+    "colors":[
+        "#FFC300",
+        "#C70039"
+
+    ],
+    "image":
+    [
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://i.pinimg.com/736x/09/d3/31/09d331bb5df9254bb0d30a2d3ef1a663.jpg",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 31,
+            "width": 1080,
+            "height":650,
+            "url":"https://www.fratellowatches.com/cdn-cgi/image/anim=false/wp-content/uploads/2022/04/Vacheron-Constantin-222-2-1.jpg",
+            "filename":"prod2.png",
+            "size":1080,
+            "type":"png/img"
+        },
+        {
+            "id": 32,
+            "width": 1080,
+            "height":650,
+            "url":"https://i.pinimg.com/736x/09/d3/31/09d331bb5df9254bb0d30a2d3ef1a663.jpg",
+            "filename":"prod3.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 33,
+            "width": 1080,
+            "height":650,
+            "url":"https://images.squarespace-cdn.com/content/v1/5c78138211f784469d4817df/9bfde823-0fec-44f7-94ba-5f3e4469dad2/F75DF8AA-53A0-4C9E-9D39-6CDB3657E19E.jpeg",
+            "filename":"prod4.png",
+            "size":1080,
+            "type":"png/img"
+
+        }
+    ],
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "featured": "true",
+    "category": "watch",
+    "name": "TimexZ40",
+    "price": "10000"
+    
+},
+{
+    "id":6,
+    "title": "Web Development",
+    "colors":[
+        "#FF5733",
+        "#FFC300"
+    ],
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe93eM7rKR4QWZ8qQP-puSoWw6FnIEm5-R8g&usqp=CAU",
+    "image": [
+        {
+            "id": 30,
+            "width": 1080,
+            "height":650,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe93eM7rKR4QWZ8qQP-puSoWw6FnIEm5-R8g&usqp=CAU",
+            "filename":"prod1.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 31,
+            "width": 1080,
+            "height":650,
+            "url":"https://guide-images.cdn.ifixit.com/igi/BYY6luHjiuvfMcRs.standard",
+            "filename":"prod2.png",
+            "size":1080,
+            "type":"png/img"
+        },
+        {
+            "id": 32,
+            "width": 1080,
+            "height":650,
+            "url":"https://down-my.img.susercontent.com/file/eb369fd89c6b16cad1444c3bb0ca50bc_tn",
+            "filename":"prod3.png",
+            "size":1080,
+            "type":"png/img"
+
+        },
+        {
+            "id": 33,
+            "width": 1080,
+            "height":650,
+            "url":"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-5567-non-touch/global-spi/notebook-inspiron-15-5567-non-touch-front-windows-relativesize-ss-imperial-500-ng.psd?fmt=jpg&wid=500&hei=229",
+            "filename":"prod4.png",
+            "size":1080,
+            "type":"png/img"
+
+        }
+    ],
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "featured": "true",
+    "category": "Laptop",
+    "company": "Dell",
+    "name": "DellCelerone",
+    "price": "1000000000",
+    "stars": 5,
+    "stock": 4,
+    "reviews": 70
+    
 }
+
 ]

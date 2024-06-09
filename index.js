@@ -4,20 +4,46 @@ const cors = require("cors");
 const App = express();
 
 App.use(cors());
-port = process.env.PORT || 3000;
+port = process.env.PORT || 3001;
 
 const apiData = require("./data.json");
 
 
-App.get("/", (req, res) =>{
+App.get("/", (req, res) => {
 
     res.send("hello server");
 });
 
-App.get("/service",  (req,res) =>{
-    res.send(apiData);
+App.get("/service", (req, res) => {
+    const id = req.query.id;
+    if (!id) {
+
+        return res.send(apiData);
+    }
+    const filteredData = apiData.filter(item => item.id.toString() === id);
+    if (filteredData.length === 0) {
+        return res.status(404).json({ error: 'Data not found for the provided "id"' });
+
+    }
+
+    res.send(filteredData[0]);
 });
+// App.get('/singleproduct', (req, res) => {
+//     const id = req.query.id;
+//     // if (!id) {
+//     //     return res.status(400).json({ error: 'Please provide an "id" query parameter.' });
+//     // }
+//     const filteredData = apiData.filter(item => item.id.toString() === id);
+//     // if (filteredData.length === 0) {
+//     //     return res.status(404).json({ error: 'Data not found for the provided "id"' });
+
+//     // }
+
+//     res.send(filteredData);
+// });
 
 App.listen(port, () => {
+    console.log("calling the server");
+
     console.log(" hello server");
 });
