@@ -2,7 +2,7 @@
     {
         "id":1,
         "category": "mobile",
-        "img":"https://www.costco.co.uk/medias/sys_master/images/h37/hc3/119433914056734.jpg",
+        "img":"https://img.drz.lazcdn.com/static/pk/p/f90519db9e47b98bb906ce7b986453a2.jpg_720x720q80.jpg",
         "featured": "false",
         "name": "iphoneX",
         "company": "MacOs",
@@ -13,7 +13,7 @@
                 "id": "iphone1",
                 "width": 1080,
                 "height":650,
-                "url":"https://www.costco.co.uk/medias/sys_master/images/h37/hc3/119433914056734.jpg",
+                "url":"https://img.drz.lazcdn.com/static/pk/p/f90519db9e47b98bb906ce7b986453a2.jpg_720x720q80.jpg",
                 "filename":"prod1.png",
                 "size":1080,
                 "type":"png/img"
