@@ -10,6 +10,14 @@ App.use(
         credentials: true,
     })
 );
+
+App.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "https://e-commerce-psi-sable.vercel.app");
+    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
+    res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    next();
+});
+
 port = process.env.PORT || 3001;
 
 const apiData = require("./data.json");
