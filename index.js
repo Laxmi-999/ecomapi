@@ -5,7 +5,7 @@ const App = express();
 
 App.use(
     cors({
-        origin: "https://e-commerce-psi-sable.vercel.app/", // Replace with your actual frontend URL
+        origin: "https://e-commerce-psi-sable.vercel.app", // Replace with your actual frontend URL
         methods: "GET,POST,PUT,DELETE",
         credentials: true,
     })
