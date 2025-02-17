@@ -20,7 +20,7 @@ App.get("/", (req, res) => {
     res.send("hello server");
 });
 
-App.get("/service", (req, res) => {
+App.get("/products", (req, res) => {
     const id = req.query.id;
     if (!id) {
 
