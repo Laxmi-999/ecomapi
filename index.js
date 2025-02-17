@@ -3,7 +3,13 @@ const cors = require("cors");
 
 const App = express();
 
-App.use(cors());
+App.use(
+    cors({
+        origin: "https://e-commerce-psi-sable.vercel.app/", // Replace with your actual frontend URL
+        methods: "GET,POST,PUT,DELETE",
+        credentials: true,
+    })
+);
 port = process.env.PORT || 3001;
 
 const apiData = require("./data.json");
